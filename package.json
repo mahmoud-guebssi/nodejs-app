@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application demonstrating various functionalities.",
+  "main": "hello-world.js",
+  "scripts": {
+    "start": "node server.js",
+    "read": "node read-hello.js",
+    "generate-password": "node password-generator.js",
+    "send-email": "node email-sender.js"
+  },
+  "dependencies": {
+    "generate-password": "^1.0.0",
+    "nodemailer": "^6.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
